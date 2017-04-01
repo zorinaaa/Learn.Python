@@ -14,13 +14,9 @@ def ask_user(answers):
         answer = get_answer(user_input, answers)
         print(answer)
 
-    if user_input == 'Пока':
-        break
-    
+        if user_input == 'Пока':
+        	break
+
 
 if __name__ == '__main__':
     ask_user(answers)
-
-
-
-
